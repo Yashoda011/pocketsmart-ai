@@ -1,0 +1,19 @@
+# secrets & local config
+.env
+
+# local sqlite database (users/history live here locally)
+*.db
+
+# python cache
+__pycache__/
+*.pyc
+
+# standalone downloaded homepage snapshot (regenerable; keep out so it
+# never shadows the app homepage if this repo is hosted as a site)
+/index.html
+
+# vercel cli local state
+.vercel/
+
+# raw pinterest mockup photo (cropped logo.png is the used asset)
+static/img/logo-raw.jpg
